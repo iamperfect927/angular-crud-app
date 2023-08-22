@@ -1,0 +1,18 @@
+{
+  "customers": [
+    {
+      "id": 2,
+      "name": "Ayuk Parfait",
+      "phone": "673211500",
+      "address": "Nigeria",
+      "membership": "Silver"
+    },
+    {
+      "name": "hello",
+      "phone": 123456789,
+      "address": "buea",
+      "membership": "Pro",
+      "id": 3
+    }
+  ]
+}

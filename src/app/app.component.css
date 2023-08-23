@@ -1,0 +1,9 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+.favorite-icon, .share, .menu{
+    color: red;
+    border: none;
+    background-color: #F5F5F5;
+}

@@ -2,6 +2,8 @@ import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+//service
+import { HttpClientModule } from "@angular/common/http";
 
 // modules
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -19,6 +21,10 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSelectModule} from '@angular/material/select';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TableComponent } from './list-table/table/table.component';
+import { MatPaginatorModule} from '@angular/material/paginator';
+import { MatTableModule} from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
 
 
 
@@ -28,7 +34,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    EmpAddEditComponent,  
+    EmpAddEditComponent,
+    TableComponent,  
   ],
   imports: [
     BrowserModule,
@@ -45,6 +52,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatRadioModule,
     MatSelectModule,
     ReactiveFormsModule,
+    HttpClientModule,
+    MatPaginatorModule,
+    MatTableModule,
+    MatSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

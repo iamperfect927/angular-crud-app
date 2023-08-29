@@ -1,17 +1,27 @@
 {
-  "customers": [
+  "employees": [
     {
-      "id": 2,
-      "name": "Ayuk Parfait",
-      "phone": "673211500",
-      "address": "Nigeria",
-      "membership": "Silver"
+      "firstName": "tom",
+      "lastName": "holly",
+      "gender": "female",
+      "email": "test@gmail.com",
+      "dob": "2000-11-15T23:00:00.000Z",
+      "education": "Master",
+      "company": "facebook",
+      "experience": 2,
+      "package": 100,
+      "id": 1
     },
     {
-      "name": "hello",
-      "phone": 123456789,
-      "address": "buea",
-      "membership": "Pro",
+      "firstName": "thomas",
+      "lastName": "john",
+      "gender": "male",
+      "email": "test@gmail.com",
+      "dob": "2023-12-16T23:00:00.000Z",
+      "education": "Bachelor",
+      "company": "boyong lab enterprise",
+      "experience": 40,
+      "package": 0,
       "id": 3
     }
   ]

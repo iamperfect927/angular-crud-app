@@ -6,22 +6,22 @@
         <div>
             <mat-form-field appearance="outline" style="margin-right: 10px;">
                 <mat-label>First name</mat-label>
-                <input matInput type="text" placeholder="Ex. tom"  formControlName="firstName">
+                <input matInput type="text" placeholder="Ex. tom"  formControlName="firstName" required>
             </mat-form-field>
             <mat-form-field appearance="outline">
                 <mat-label>Last name</mat-label>
-                <input matInput type="text" placeholder="Ex. parfait"  formControlName="lastName">
+                <input matInput type="text" placeholder="Ex. parfait"  formControlName="lastName" required>
             </mat-form-field>
         </div>
 
         <div>
             <mat-form-field appearance="outline" style="margin-right: 10px;">
                 <mat-label>Email</mat-label>
-                <input matInput type="email" placeholder="Ex. test@gmail.com"  formControlName="email">
+                <input matInput type="email" placeholder="Ex. test@gmail.com"  formControlName="email" required>
             </mat-form-field>
             <mat-form-field >
                 <mat-label>Choose a date</mat-label>
-                <input matInput [matDatepicker]="picker" formControlName="dateOfBirth">
+                <input matInput [matDatepicker]="picker" formControlName="dob" required>
                 <mat-hint>MM/DD/YYYY</mat-hint>
                 <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
                 <mat-datepicker #picker startView="year" [startAt]="startDate"></mat-datepicker>
@@ -69,12 +69,9 @@
                 <mat-hint >In CFA</mat-hint>
             </mat-form-field>
         </div>
-
-        
-        
     </div>
     <div mat-dialog-actions style="gap: 10px; justify-content: end;">
-        <button mat-raised-button>Cancel</button>
+        <button mat-raised-button type="button" (click)="closeDialog()">Cancel</button>
         <button mat-raised-button color="primary" type="submit">Save</button>
     </div>
 </form>

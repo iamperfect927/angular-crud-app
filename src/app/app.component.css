@@ -7,3 +7,10 @@
     border: none;
     background-color: #F5F5F5;
 }
+
+.main-body{
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 30px solid blue;
+}

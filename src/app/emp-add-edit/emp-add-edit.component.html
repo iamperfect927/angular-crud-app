@@ -17,7 +17,8 @@
         <div>
             <mat-form-field appearance="outline" style="margin-right: 10px;">
                 <mat-label>Email</mat-label>
-                <input matInput type="email" placeholder="Ex. test@gmail.com"  formControlName="email" required>
+                <input matInput type="email" placeholder="Ex. test@gmail.com"  formControlName="email" [email]="true" required >
+                <mat-error *ngIf="this.empForm.email.invalid">{{getErrorMessage()}}</mat-error>
             </mat-form-field>
             <mat-form-field >
                 <mat-label>Choose a date</mat-label>
@@ -72,6 +73,6 @@
     </div>
     <div mat-dialog-actions style="gap: 10px; justify-content: end;">
         <button mat-raised-button type="button" (click)="closeDialog()">Cancel</button>
-        <button mat-raised-button color="primary" type="submit">Save</button>
+        <button mat-raised-button color="primary" type="submit">{{data ? 'Update' : 'Save'}}</button>
     </div>
 </form>

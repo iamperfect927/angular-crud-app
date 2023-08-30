@@ -1,28 +1,16 @@
 {
   "employees": [
     {
-      "firstName": "tom",
-      "lastName": "holly",
-      "gender": "female",
-      "email": "test@gmail.com",
-      "dob": "2000-11-15T23:00:00.000Z",
-      "education": "Master",
-      "company": "facebook",
-      "experience": 2,
-      "package": 100,
-      "id": 1
-    },
-    {
-      "firstName": "thomas",
-      "lastName": "john",
+      "firstName": "Djiela",
+      "lastName": "Parfait",
       "gender": "male",
-      "email": "test@gmail.com",
-      "dob": "2023-12-16T23:00:00.000Z",
+      "email": "djielaparfait99@gmail.com",
+      "dob": "2000-01-31T23:00:00.000Z",
       "education": "Bachelor",
       "company": "boyong lab enterprise",
-      "experience": 40,
+      "experience": 2,
       "package": 0,
-      "id": 3
+      "id": 1
     }
   ]
 }

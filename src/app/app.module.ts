@@ -21,10 +21,12 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSelectModule} from '@angular/material/select';
 import { ReactiveFormsModule } from '@angular/forms';
-import { TableComponent } from './list-table/table/table.component';
+// import { TableComponent } from './list-table/table/table.component';
 import { MatPaginatorModule} from '@angular/material/paginator';
 import { MatTableModule} from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 
 
@@ -35,7 +37,7 @@ import { MatSortModule } from '@angular/material/sort';
   declarations: [
     AppComponent,
     EmpAddEditComponent,
-    TableComponent,  
+      
   ],
   imports: [
     BrowserModule,
@@ -56,6 +58,7 @@ import { MatSortModule } from '@angular/material/sort';
     MatPaginatorModule,
     MatTableModule,
     MatSortModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

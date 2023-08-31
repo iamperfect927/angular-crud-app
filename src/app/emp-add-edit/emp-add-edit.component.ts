@@ -33,6 +33,7 @@ export class EmpAddEditComponent implements OnInit{
     ){
     
       this.empForm = this.fb.group({
+        id: '',
       firstName: '',
       lastName: '',
       gender: '',
@@ -57,6 +58,7 @@ export class EmpAddEditComponent implements OnInit{
 
   ngOnInit(): void {
     this.empForm.patchValue(this.data);
+    console.log(this.data)  
   }
 
   closeDialog(){

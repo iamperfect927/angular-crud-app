@@ -1,16 +1,16 @@
 {
   "employees": [
     {
-      "firstName": "Djiela",
-      "lastName": "Parfait",
-      "gender": "male",
+      "id": 1,
+      "firstName": "dggsg",
+      "lastName": "fdsdffs",
+      "gender": "",
       "email": "djielaparfait99@gmail.com",
-      "dob": "2000-01-31T23:00:00.000Z",
-      "education": "Bachelor",
-      "company": "boyong lab enterprise",
-      "experience": 2,
-      "package": 0,
-      "id": 1
+      "dob": "2000-06-14T23:00:00.000Z",
+      "education": "",
+      "company": "",
+      "experience": "",
+      "package": ""
     }
   ]
 }

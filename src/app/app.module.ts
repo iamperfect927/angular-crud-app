@@ -26,6 +26,7 @@ import { MatPaginatorModule} from '@angular/material/paginator';
 import { MatTableModule} from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { ConfirmDeleteComponent } from './confirm-delete/confirm-delete/confirm-delete.component';
 
 
 
@@ -37,6 +38,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
   declarations: [
     AppComponent,
     EmpAddEditComponent,
+    ConfirmDeleteComponent,
       
   ],
   imports: [
